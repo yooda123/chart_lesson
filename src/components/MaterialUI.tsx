@@ -26,12 +26,12 @@ const MaterialUI: React.FC = () => {
       <Typography
         className={classes.typoStyle}
         color="secondary"
-        variant="h1"
+        // variant="h1"
         align="right"
         gutterBottom
         noWrap
       >
-        Hello, UIHello, UIHello, UIHello, UIHello, UIHello, UIHello, UIHello, UI
+        Hello, UI
       </Typography>
 
       <Grid container spacing={1}>
@@ -78,6 +78,41 @@ const MaterialUI: React.FC = () => {
         </Grid>
         <Grid item xs={1}>
           <Paper className={classes.paperStyle}>xs=1</Paper>
+        </Grid>
+      </Grid>
+
+      <Grid container spacing={3} direction="column">
+        <Grid item xs={12} container>
+          <Grid item xs={2}>
+            Demo
+          </Grid>
+          <Grid item xs={8}></Grid>
+          <Grid item xs={2}>
+            Test
+          </Grid>
+        </Grid>
+        <Grid item xs={12} container justify="space-around">
+          <Grid item xs={3}>
+            Resources JSONPlaceholder comes with a set of 6 common resources:
+            /posts 100 posts /comments 500 comments /albums 100 albums /photos
+            5000 photos /todos 200 todos /users 10 users Note: resources have
+            relations. For example: posts have many comments, albums have many
+            photos, ... see guide for the full list.
+          </Grid>
+          <Grid item xs={3}>
+            Resources JSONPlaceholder comes with a set of 6 common resources:
+            /posts 100 posts /comments 500 comments /albums 100 albums /photos
+            5000 photos /todos 200 todos /users 10 users Note: resources have
+            relations. For example: posts have many comments, albums have many
+            photos, ... see guide for the full list.
+          </Grid>
+          <Grid item xs={3}>
+            Resources JSONPlaceholder comes with a set of 6 common resources:
+            /posts 100 posts /comments 500 comments /albums 100 albums /photos
+            5000 photos /todos 200 todos /users 10 users Note: resources have
+            relations. For example: posts have many comments, albums have many
+            photos, ... see guide for the full list.
+          </Grid>
         </Grid>
       </Grid>
     </div>
