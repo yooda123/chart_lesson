@@ -20,6 +20,7 @@
 .eslintcache
 .prettierignore
 package-lock.json
+yarn.lock
 
 npm-debug.log*
 yarn-debug.log*
